@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Forest Cover Type Predictor<</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class="heading_font">Predicting Forest Cover Type</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Google Cloud.</p>
+    		</div>
+    	</div>
+
+        <!-- Text Area -->
+    	<div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+                <input class="form-input" type="text" name="Elevation" placeholder="Elevation in meters(betweenw -2.0 to 2.0)" required><br>
+				<input class="form-input" type="text" name="Aspect" placeholder="Aspect in degrees azimuth(between -1.0 to 1.0)" required><br>
+				<input class="form-input" type="text" name="Slope" placeholder="Slope in degrees(between -2.08 to 2.77)" required><br>
+				<input class="form-input" type="text" name="Horizontal_Distance_To_Roadways" placeholder=" Horz Dist to nearest roadway(between -2 to 2)" required><br>
+				<input class="form-input" type="text" name="Horizontal_Distance_To_Fire_Points" placeholder="Horz Dist to nearest wildfire ignition point(b/w -52.61 to 3.01)" required><br>
+				<input class="form-input" type="text" name= "Horizontal_Distance_To_Hydrology"  placeholder="Horz Dist to nearest surface water feature(b/w -1.50 to 3.05)" required><br>
+				<input class="form-input" type="text" name="Vertical_Distance_To_Hydrology" placeholder="Vert Dist to nearest surface water feature(b/w -2.98 to 3)" required><br>
+				<input class="form-input" type="text" name="Hillshade_Noon"  placeholder="Hillshade index at noon, summer soltice(b/w -2.0 to 2.0)" required><br>
+				<input class="form-input" type="text" name="Hillshade_9am " placeholder=" Hillshade index at 9pm, summer solstice(b/w -1.0 to 1.0)" required><br>
+				<input class="form-input" type="text" name="Hillshade_3pm" placeholder=" Hillshade index at 3pm, summer solstice(b/w -3..0 to 3.0)" required><br>
+				<input class="form-input" type="text" name="Soil_Type4" placeholder= "Soil_Type4 designation/0(absence) or 1(presence)" required><br>
+				<input class="form-input" type="text" name="Soil_Type12" placeholder="Soil_Type12 designation/0(absence) or 1(presence)" required><br>
+				<input class="form-input" type="text" name="Soil_Type10" placeholder="Soil_Type10 designation/0(absence) or 1(presence)" required><br>
+                <input class="form-input" type="text" name="Soil_Type22" placeholder="Soil_Type22 designation/0(absence) or 1(presence)" required><br>
+                <input class="form-input" type="text" name="Soil_Type23" placeholder="Soil_Type23 designation/0(absence) or 1(presence)" required><br>
+                <input class="form-input" type="text" name="Soil_Type38" placeholder="Soil_Type38 designation/0(absence) or 1(presence)" required><br>
+                <input class="form-input" type="text" name="Soil_Type39" placeholder="Soil_Type39 designation/0(absence) or 1(presence)" required><br>
+                <input class="form-input" type="text" name="Wilderness_Area1" placeholder="Wilderness_Area1 designation/0(absence) or 1(presence)" required><br>
+                <input class="form-input" type="text" name="Wilderness_Area3" placeholder="Wilderness_Area3 designation/0(absence) or 1(presence)" required><br>
+                <input class="form-input" type="text" name="Wilderness_Area4" placeholder="Wilderness_Area4 designation/0(absence) or 1(presence)" required><br>
+				
+				
+				
+
+        		<input type="submit" class="my-cta-button" value="Predict">
+        	</form>
+    	</div>
+
+        <!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/anujvyas/Diabetes-Prediction-Deployment"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/anujkvyas"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made with ❤️ by sunny and satya</p>
+       </div>
+
+    </body>
+</html>

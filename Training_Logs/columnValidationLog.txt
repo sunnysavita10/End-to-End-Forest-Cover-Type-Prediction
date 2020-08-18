@@ -1,0 +1,30 @@
+2020-08-12/16:09:59		Column Length Validation Started!!
+2020-08-12/16:10:13		Column Length Validation Completed!!
+2020-08-12/17:09:37		Column Length Validation Started!!
+2020-08-12/17:09:46		Column Length Validation Completed!!
+2020-08-12/17:47:48		Column Length Validation Started!!
+2020-08-12/17:47:55		Column Length Validation Completed successfuly!!
+2020-08-12/18:02:45		Column Length Validation Started!!
+2020-08-12/18:02:51		Column Length Validation Completed successfuly!!
+2020-08-12/18:03:29		Column Length Validation Started!!
+2020-08-12/18:03:36		Column Length Validation Completed successfuly!!
+2020-08-12/18:20:33		Column Length Validation Started!!
+2020-08-12/18:20:40		Column Length Validation Completed successfuly!!
+2020-08-12/18:27:49		Column Length Validation Started!!
+2020-08-12/18:27:55		Column Length Validation Completed successfuly!!
+2020-08-12/18:29:34		Column Length Validation Started!!
+2020-08-12/18:29:39		Column Length Validation Completed successfuly!!
+2020-08-12/18:31:41		Column Length Validation Started!!
+2020-08-12/18:31:48		Column Length Validation Completed successfuly!!
+2020-08-12/18:41:16		Column Length Validation Started!!
+2020-08-12/18:41:22		Column Length Validation Completed successfuly!!
+2020-08-12/19:01:33		Column Length Validation Started!!
+2020-08-12/19:01:39		Column Length Validation Completed successfuly!!
+2020-08-12/19:08:37		Column Length Validation Started!!
+2020-08-12/19:08:43		Column Length Validation Completed successfuly!!
+2020-08-12/19:11:00		Column Length Validation Started!!
+2020-08-12/19:11:06		Column Length Validation Completed successfuly!!
+2020-08-12/19:13:27		Column Length Validation Started!!
+2020-08-12/19:13:34		Column Length Validation Completed successfuly!!
+2020-08-12/21:32:58		Column Length Validation Started!!
+2020-08-12/21:33:03		Column Length Validation Completed successfuly!!
